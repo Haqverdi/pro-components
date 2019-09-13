@@ -5,11 +5,22 @@ import { useTranslation } from 'react-i18next';
 
 import styles from './styles.module.scss';
 
-export function ProFormItem({ children, validateStatus, help = validateStatus ? 'Required' : '', ...rest }) {
+export function ProFormItem({
+  children,
+  validateStatus,
+  help = validateStatus ? 'Required' : '',
+  ...rest
+}) {
   const { t } = useTranslation();
 
   return (
-    <Form.Item {...rest} colon={false} validateStatus={validateStatus} help={t(help)} className={styles.formItem}>
+    <Form.Item
+      {...rest}
+      colon={false}
+      validateStatus={validateStatus}
+      help={t(help)}
+      className={styles.formItem}
+    >
       {children}
     </Form.Item>
   );

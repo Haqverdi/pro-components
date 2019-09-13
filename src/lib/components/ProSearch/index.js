@@ -13,7 +13,12 @@ export function ProSearch(props) {
   return (
     <div className={styles.search}>
       <label htmlFor="search">{t(label)}</label>
-      <Input.Search id="search" placeholder={t(placeholder)} onSearch={onSearch} {...rest} />
+      <Input.Search
+        id="search"
+        placeholder={t(placeholder)}
+        onSearch={onSearch}
+        {...rest}
+      />
     </div>
   );
 }

@@ -31,12 +31,16 @@ export const ProSelect = React.memo(
         {...rest}
         loading={loading}
         notFoundContent={t(notFoundContent)}
-        className={`${styles.select} ${hasError ? styles.selectError : ''} ${disabled ? styles.disabled : ''}`}
+        className={`${styles.select} ${hasError ? styles.selectError : ''} ${
+          disabled ? styles.disabled : ''
+        }`}
         dropdownClassName={styles.dropdown}
         optionFilterProp="children"
         getPopupContainer={trigger => trigger.parentNode}
         suffixIcon={!loading && <Icon component={DownArrow} />}
-        filterOption={(input, option) => option.props.children.toLowerCase().indexOf(input.toLowerCase()) >= 0}
+        filterOption={(input, option) =>
+          option.props.children.toLowerCase().indexOf(input.toLowerCase()) >= 0
+        }
         disabled={disabled}
       >
         {showFirstEmptyOption && <Option value="all">Hamısı</Option>}

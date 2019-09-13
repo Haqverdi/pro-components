@@ -2,6 +2,7 @@ export {
   DeleteModal,
   ErrorBoundary,
   InfoBox,
+  InfoBoxItem,
   ProMaskedInput,
   PopoverAndDots,
   ProCollapse,

@@ -32,7 +32,9 @@ InfoBox.propTypes = {
     let error = null;
     React.Children.forEach(prop, function(child) {
       if (child.type !== InfoBoxItem) {
-        error = new Error(`${componentName} children should be of type InfoBoxItem.`);
+        error = new Error(
+          `${componentName} children should be of type InfoBoxItem.`
+        );
       }
     });
     return error;
