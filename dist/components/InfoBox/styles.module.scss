@@ -1,0 +1,35 @@
+.infoBox {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 4px;
+}
+
+.content {
+  // padding: 24px;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: 700;
+  color: #31393c;
+  margin-bottom: 20px;
+}
+
+.viewOption {
+  font-size: 13px;
+  color: #31393c;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.label {
+  display: block;
+  font-size: 11px;
+  text-transform: capitalize;
+  color: #bbb;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.text {
+  text-transform: capitalize;
+}

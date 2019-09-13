@@ -1,0 +1,15 @@
+.dots {
+  font-size: 20px;
+  color: #bbb;
+  transition: color 0.3s ease-in-out;
+  background: none;
+  border: none;
+  user-select: none;
+  svg {
+    vertical-align: middle;
+  }
+  &:hover {
+    cursor: pointer;
+    color: #666;
+  }
+}

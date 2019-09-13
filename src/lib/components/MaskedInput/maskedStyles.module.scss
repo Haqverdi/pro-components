@@ -1,0 +1,20 @@
+.maskedInput {
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  width: 100%;
+  text-overflow: ellipsis;
+  outline: none;
+  transition: all 0.3s;
+  &:focus {
+    border-color: transparent;
+    border-right-width: 1px !important;
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(85, 171, 128, 0.2);
+  }
+}

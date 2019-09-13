@@ -1,0 +1,115 @@
+{
+  "name": "pro-components",
+  "version": "0.1.0",
+  "description": "Pro components",
+  "private": true,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "craco start",
+    "build-examples": "craco build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Haqverdi",
+    "email": "mobdevpronet@gmail.com",
+    "url": "https://github.com/Haqverdi"
+  },
+  "homepage": "https://test.com",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "wesbos",
+    "rules": {
+      "jsx-a11y/label-has-for": 0,
+      "jsx-a11y/label-has-associated-control": 0,
+      "no-use-before-define": "off",
+      "array-callback-return": "off",
+      "no-shadow": "off",
+      "no-prototype-builtins": "off",
+      "no-nested-ternary": "off",
+      "jsx-a11y/anchor-is-valid": "off",
+      "no-script-url": "off",
+      "no-param-reassign": "off",
+      "jsx-a11y/click-events-have-key-events": "off",
+      "jsx-a11y/no-noninteractive-element-interactions": "off",
+      "react/prop-types": "off",
+      "camelcase": "off",
+      "import/no-extraneous-dependencies": "off"
+    },
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "moduleDirectory": [
+            "node_modules",
+            "src"
+          ]
+        }
+      }
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "antd": "^3.23.2",
+    "prop-types": "^15.7.2",
+    "react-i18next": "^10.12.4",
+    "react-icons": "^3.7.0",
+    "react-text-mask": "^5.4.3",
+    "react-toastify": "^5.3.2",
+    "react-transition-group": "^4.3.0",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "@craco/craco": "^5.4.0",
+    "@sweetalert/with-react": "^0.1.1",
+    "antd": "^3.23.2",
+    "babel-plugin-import": "^1.12.1",
+    "craco-antd": "^1.12.0",
+    "eslint-config-airbnb": "17.1.1",
+    "eslint-config-prettier": "4.3.0",
+    "eslint-config-wesbos": "0.0.19",
+    "eslint-plugin-html": "6.0.0",
+    "eslint-plugin-import": "2.18.0",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "3.1.0",
+    "eslint-plugin-react": "7.14.2",
+    "eslint-plugin-react-hooks": "1.6.1",
+    "framer-motion": "1.2.3",
+    "moment": "^2.24.0",
+    "node-sass": "4.12.0",
+    "nodemon": "1.19.1",
+    "prettier": "1.18.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-i18next": "^10.12.4",
+    "react-icons": "^3.7.0",
+    "react-scripts": "3.1.1",
+    "react-text-mask": "^5.4.3",
+    "react-toastify": "^5.3.2",
+    "react-transition-group": "^4.3.0",
+    "sweetalert": "^2.1.2"
+  }
+}
