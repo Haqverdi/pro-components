@@ -1,4 +1,15 @@
 # Pro Components
 
-for examples page run
-`npm start`
+## Getting Started
+
+#### Clone repo
+
+### `git clone https://github.com/Haqverdi/pro-components.git`
+
+#### Install dependencies
+
+### `npm install`
+
+#### Run examples page
+
+### `npm install`
