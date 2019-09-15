@@ -12,4 +12,4 @@
 
 #### Run examples page
 
-### `npm install`
+### `npm start`
